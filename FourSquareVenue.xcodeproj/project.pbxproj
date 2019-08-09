@@ -12,9 +12,43 @@
 		6F24B77622FD6182005BB72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77422FD6182005BB72E /* Main.storyboard */; };
 		6F24B77822FD6183005BB72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77722FD6183005BB72E /* Assets.xcassets */; };
 		6F24B77B22FD6183005BB72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77922FD6183005BB72E /* LaunchScreen.storyboard */; };
+		6F24B78C22FD623D005BB72E /* VenueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B78B22FD623D005BB72E /* VenueListViewModel.swift */; };
+		6F24B78E22FD6258005BB72E /* VenueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B78D22FD6258005BB72E /* VenueDetailViewModel.swift */; };
+		6F24B79022FD626E005BB72E /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B78F22FD626E005BB72E /* GenericCell.swift */; };
+		6F24B79222FD6285005BB72E /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79122FD6285005BB72E /* EndPoint.swift */; };
+		6F24B79422FD629D005BB72E /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79322FD629D005BB72E /* ViewControllerExtension.swift */; };
+		6F24B79622FD62B3005BB72E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79522FD62B3005BB72E /* DataController.swift */; };
+		6F24B79822FD62D9005BB72E /* DataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79722FD62D9005BB72E /* DataAdapter.swift */; };
+		6F24B79A22FD62EB005BB72E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79922FD62EB005BB72E /* SearchViewController.swift */; };
+		6F24B79C22FD62FA005BB72E /* VenueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79B22FD62FA005BB72E /* VenueListViewController.swift */; };
+		6F24B79E22FD6309005BB72E /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79D22FD6309005BB72E /* VenueDetailViewController.swift */; };
+		6F24B7A022FD6337005BB72E /* VenueListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B79F22FD6337005BB72E /* VenueListCell.swift */; };
+		6F24B7A222FD6377005BB72E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7A122FD6377005BB72E /* HTTPMethod.swift */; };
+		6F24B7A422FD6388005BB72E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7A322FD6388005BB72E /* Request.swift */; };
+		6F24B7A622FD6399005BB72E /* NetworkConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7A522FD6399005BB72E /* NetworkConnector.swift */; };
+		6F24B7A822FD63A7005BB72E /* SearchParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7A722FD63A7005BB72E /* SearchParameter.swift */; };
+		6F24B7AA22FD63B4005BB72E /* FourSquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7A922FD63B4005BB72E /* FourSquareAPI.swift */; };
+		6F24B7AC22FD63E2005BB72E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7AB22FD63E2005BB72E /* Category.swift */; };
+		6F24B7AE22FD6415005BB72E /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7AD22FD6415005BB72E /* Filter.swift */; };
+		6F24B7B022FD642D005BB72E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7AF22FD642D005BB72E /* Group.swift */; };
+		6F24B7B222FD6472005BB72E /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7B122FD6472005BB72E /* Icon.swift */; };
+		6F24B7B422FD648D005BB72E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7B322FD648D005BB72E /* Item.swift */; };
+		6F24B7B622FD64AB005BB72E /* LabeledLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7B522FD64AB005BB72E /* LabeledLatLng.swift */; };
+		6F24B7B822FD64E3005BB72E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7B722FD64E3005BB72E /* Location.swift */; };
+		6F24B7BA22FD64F3005BB72E /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7B922FD64F3005BB72E /* Meta.swift */; };
+		6F24B7BC22FD650F005BB72E /* Ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7BB22FD650F005BB72E /* Ne.swift */; };
+		6F24B7BE22FD6530005BB72E /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7BD22FD6530005BB72E /* Places.swift */; };
+		6F24B7C022FD654C005BB72E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7BF22FD654C005BB72E /* Response.swift */; };
+		6F24B7C222FD6568005BB72E /* SuggestedBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7C122FD6568005BB72E /* SuggestedBound.swift */; };
+		6F24B7C422FD65AB005BB72E /* SuggestedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7C322FD65AB005BB72E /* SuggestedFilter.swift */; };
+		6F24B7C622FD65C6005BB72E /* Sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7C522FD65C6005BB72E /* Sw.swift */; };
+		6F24B7C822FD65E3005BB72E /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B7C722FD65E3005BB72E /* Venue.swift */; };
+		CE305EDA5A9970875DA24F83 /* Pods_FourSquareVenue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333869867BA58BAB33002A76 /* Pods_FourSquareVenue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		333869867BA58BAB33002A76 /* Pods_FourSquareVenue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourSquareVenue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B31B9F3562568C97BA1FDE /* Pods-FourSquareVenue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareVenue.debug.xcconfig"; path = "Target Support Files/Pods-FourSquareVenue/Pods-FourSquareVenue.debug.xcconfig"; sourceTree = "<group>"; };
 		6F24B76D22FD6182005BB72E /* FourSquareVenue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSquareVenue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F24B77022FD6182005BB72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F24B77222FD6182005BB72E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +56,38 @@
 		6F24B77722FD6183005BB72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F24B77A22FD6183005BB72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F24B77C22FD6183005BB72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F24B78B22FD623D005BB72E /* VenueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewModel.swift; sourceTree = "<group>"; };
+		6F24B78D22FD6258005BB72E /* VenueDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewModel.swift; sourceTree = "<group>"; };
+		6F24B78F22FD626E005BB72E /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
+		6F24B79122FD6285005BB72E /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		6F24B79322FD629D005BB72E /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		6F24B79522FD62B3005BB72E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		6F24B79722FD62D9005BB72E /* DataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAdapter.swift; sourceTree = "<group>"; };
+		6F24B79922FD62EB005BB72E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6F24B79B22FD62FA005BB72E /* VenueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewController.swift; sourceTree = "<group>"; };
+		6F24B79D22FD6309005BB72E /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		6F24B79F22FD6337005BB72E /* VenueListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListCell.swift; sourceTree = "<group>"; };
+		6F24B7A122FD6377005BB72E /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6F24B7A322FD6388005BB72E /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		6F24B7A522FD6399005BB72E /* NetworkConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnector.swift; sourceTree = "<group>"; };
+		6F24B7A722FD63A7005BB72E /* SearchParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParameter.swift; sourceTree = "<group>"; };
+		6F24B7A922FD63B4005BB72E /* FourSquareAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareAPI.swift; sourceTree = "<group>"; };
+		6F24B7AB22FD63E2005BB72E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6F24B7AD22FD6415005BB72E /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		6F24B7AF22FD642D005BB72E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		6F24B7B122FD6472005BB72E /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		6F24B7B322FD648D005BB72E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6F24B7B522FD64AB005BB72E /* LabeledLatLng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledLatLng.swift; sourceTree = "<group>"; };
+		6F24B7B722FD64E3005BB72E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6F24B7B922FD64F3005BB72E /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		6F24B7BB22FD650F005BB72E /* Ne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ne.swift; sourceTree = "<group>"; };
+		6F24B7BD22FD6530005BB72E /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		6F24B7BF22FD654C005BB72E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		6F24B7C122FD6568005BB72E /* SuggestedBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedBound.swift; sourceTree = "<group>"; };
+		6F24B7C322FD65AB005BB72E /* SuggestedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedFilter.swift; sourceTree = "<group>"; };
+		6F24B7C522FD65C6005BB72E /* Sw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sw.swift; sourceTree = "<group>"; };
+		6F24B7C722FD65E3005BB72E /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		DB15496170D04A66CED83C33 /* Pods-FourSquareVenue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareVenue.release.xcconfig"; path = "Target Support Files/Pods-FourSquareVenue/Pods-FourSquareVenue.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +95,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE305EDA5A9970875DA24F83 /* Pods_FourSquareVenue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D72CBBF994209979F573D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333869867BA58BAB33002A76 /* Pods_FourSquareVenue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F24B76422FD6182005BB72E = {
 			isa = PBXGroup;
 			children = (
 				6F24B76F22FD6182005BB72E /* FourSquareVenue */,
 				6F24B76E22FD6182005BB72E /* Products */,
+				D257400AD69FC752C10433FB /* Pods */,
+				2D72CBBF994209979F573D5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +131,14 @@
 		6F24B76F22FD6182005BB72E /* FourSquareVenue */ = {
 			isa = PBXGroup;
 			children = (
+				6F24B78A22FD620D005BB72E /* ViewModel */,
+				6F24B78922FD6200005BB72E /* Protocol */,
+				6F24B78822FD61F5005BB72E /* Extension */,
+				6F24B78722FD61EB005BB72E /* Controller */,
+				6F24B78622FD61DE005BB72E /* ViewController */,
+				6F24B78422FD61CC005BB72E /* View */,
+				6F24B78322FD61C4005BB72E /* Network */,
+				6F24B78222FD61B9005BB72E /* Model */,
 				6F24B77022FD6182005BB72E /* AppDelegate.swift */,
 				6F24B77222FD6182005BB72E /* ViewController.swift */,
 				6F24B77422FD6182005BB72E /* Main.storyboard */,
@@ -64,6 +149,111 @@
 			path = FourSquareVenue;
 			sourceTree = "<group>";
 		};
+		6F24B78222FD61B9005BB72E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B7AB22FD63E2005BB72E /* Category.swift */,
+				6F24B7AD22FD6415005BB72E /* Filter.swift */,
+				6F24B7AF22FD642D005BB72E /* Group.swift */,
+				6F24B7B122FD6472005BB72E /* Icon.swift */,
+				6F24B7B322FD648D005BB72E /* Item.swift */,
+				6F24B7B522FD64AB005BB72E /* LabeledLatLng.swift */,
+				6F24B7B722FD64E3005BB72E /* Location.swift */,
+				6F24B7B922FD64F3005BB72E /* Meta.swift */,
+				6F24B7BB22FD650F005BB72E /* Ne.swift */,
+				6F24B7BD22FD6530005BB72E /* Places.swift */,
+				6F24B7BF22FD654C005BB72E /* Response.swift */,
+				6F24B7C122FD6568005BB72E /* SuggestedBound.swift */,
+				6F24B7C322FD65AB005BB72E /* SuggestedFilter.swift */,
+				6F24B7C522FD65C6005BB72E /* Sw.swift */,
+				6F24B7C722FD65E3005BB72E /* Venue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F24B78322FD61C4005BB72E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B7A122FD6377005BB72E /* HTTPMethod.swift */,
+				6F24B7A322FD6388005BB72E /* Request.swift */,
+				6F24B7A522FD6399005BB72E /* NetworkConnector.swift */,
+				6F24B7A722FD63A7005BB72E /* SearchParameter.swift */,
+				6F24B7A922FD63B4005BB72E /* FourSquareAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6F24B78422FD61CC005BB72E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B78522FD61D6005BB72E /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F24B78522FD61D6005BB72E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B79F22FD6337005BB72E /* VenueListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6F24B78622FD61DE005BB72E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B79922FD62EB005BB72E /* SearchViewController.swift */,
+				6F24B79B22FD62FA005BB72E /* VenueListViewController.swift */,
+				6F24B79D22FD6309005BB72E /* VenueDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6F24B78722FD61EB005BB72E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B79522FD62B3005BB72E /* DataController.swift */,
+				6F24B79722FD62D9005BB72E /* DataAdapter.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F24B78822FD61F5005BB72E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B79322FD629D005BB72E /* ViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6F24B78922FD6200005BB72E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B78F22FD626E005BB72E /* GenericCell.swift */,
+				6F24B79122FD6285005BB72E /* EndPoint.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6F24B78A22FD620D005BB72E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F24B78B22FD623D005BB72E /* VenueListViewModel.swift */,
+				6F24B78D22FD6258005BB72E /* VenueDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D257400AD69FC752C10433FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B31B9F3562568C97BA1FDE /* Pods-FourSquareVenue.debug.xcconfig */,
+				DB15496170D04A66CED83C33 /* Pods-FourSquareVenue.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F24B77F22FD6183005BB72E /* Build configuration list for PBXNativeTarget "FourSquareVenue" */;
 			buildPhases = (
+				F2193F68FDCD1366D1AD925A /* [CP] Check Pods Manifest.lock */,
 				6F24B76922FD6182005BB72E /* Sources */,
 				6F24B76A22FD6182005BB72E /* Frameworks */,
 				6F24B76B22FD6182005BB72E /* Resources */,
+				3C0CCC4193F5F1A7D274A377 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +322,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C0CCC4193F5F1A7D274A377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FourSquareVenue/Pods-FourSquareVenue-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IHProgressHUD/IHProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FourSquareVenue/Pods-FourSquareVenue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2193F68FDCD1366D1AD925A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourSquareVenue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F24B76922FD6182005BB72E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F24B7B022FD642D005BB72E /* Group.swift in Sources */,
+				6F24B79A22FD62EB005BB72E /* SearchViewController.swift in Sources */,
+				6F24B7AE22FD6415005BB72E /* Filter.swift in Sources */,
+				6F24B7BE22FD6530005BB72E /* Places.swift in Sources */,
+				6F24B7C822FD65E3005BB72E /* Venue.swift in Sources */,
+				6F24B79222FD6285005BB72E /* EndPoint.swift in Sources */,
+				6F24B7AC22FD63E2005BB72E /* Category.swift in Sources */,
+				6F24B7A222FD6377005BB72E /* HTTPMethod.swift in Sources */,
+				6F24B7B422FD648D005BB72E /* Item.swift in Sources */,
+				6F24B7B822FD64E3005BB72E /* Location.swift in Sources */,
+				6F24B7A822FD63A7005BB72E /* SearchParameter.swift in Sources */,
+				6F24B7C222FD6568005BB72E /* SuggestedBound.swift in Sources */,
+				6F24B7A022FD6337005BB72E /* VenueListCell.swift in Sources */,
+				6F24B7BA22FD64F3005BB72E /* Meta.swift in Sources */,
+				6F24B7C622FD65C6005BB72E /* Sw.swift in Sources */,
+				6F24B7C422FD65AB005BB72E /* SuggestedFilter.swift in Sources */,
+				6F24B7B622FD64AB005BB72E /* LabeledLatLng.swift in Sources */,
+				6F24B7AA22FD63B4005BB72E /* FourSquareAPI.swift in Sources */,
+				6F24B78C22FD623D005BB72E /* VenueListViewModel.swift in Sources */,
+				6F24B7B222FD6472005BB72E /* Icon.swift in Sources */,
+				6F24B79E22FD6309005BB72E /* VenueDetailViewController.swift in Sources */,
+				6F24B7A622FD6399005BB72E /* NetworkConnector.swift in Sources */,
+				6F24B79422FD629D005BB72E /* ViewControllerExtension.swift in Sources */,
+				6F24B7C022FD654C005BB72E /* Response.swift in Sources */,
+				6F24B7A422FD6388005BB72E /* Request.swift in Sources */,
 				6F24B77322FD6182005BB72E /* ViewController.swift in Sources */,
+				6F24B7BC22FD650F005BB72E /* Ne.swift in Sources */,
+				6F24B79C22FD62FA005BB72E /* VenueListViewController.swift in Sources */,
+				6F24B79022FD626E005BB72E /* GenericCell.swift in Sources */,
+				6F24B79622FD62B3005BB72E /* DataController.swift in Sources */,
 				6F24B77122FD6182005BB72E /* AppDelegate.swift in Sources */,
+				6F24B78E22FD6258005BB72E /* VenueDetailViewModel.swift in Sources */,
+				6F24B79822FD62D9005BB72E /* DataAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +552,7 @@
 		};
 		6F24B78022FD6183005BB72E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B31B9F3562568C97BA1FDE /* Pods-FourSquareVenue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +571,7 @@
 		};
 		6F24B78122FD6183005BB72E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB15496170D04A66CED83C33 /* Pods-FourSquareVenue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
