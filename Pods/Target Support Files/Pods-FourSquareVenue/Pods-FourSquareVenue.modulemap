@@ -1,0 +1,6 @@
+framework module Pods_FourSquareVenue {
+  umbrella header "Pods-FourSquareVenue-umbrella.h"
+
+  export *
+  module * { export * }
+}
