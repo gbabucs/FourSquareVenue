@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6F24B77122FD6182005BB72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B77022FD6182005BB72E /* AppDelegate.swift */; };
-		6F24B77322FD6182005BB72E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F24B77222FD6182005BB72E /* ViewController.swift */; };
 		6F24B77622FD6182005BB72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77422FD6182005BB72E /* Main.storyboard */; };
 		6F24B77822FD6183005BB72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77722FD6183005BB72E /* Assets.xcassets */; };
 		6F24B77B22FD6183005BB72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B77922FD6183005BB72E /* LaunchScreen.storyboard */; };
@@ -51,7 +50,6 @@
 		41B31B9F3562568C97BA1FDE /* Pods-FourSquareVenue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareVenue.debug.xcconfig"; path = "Target Support Files/Pods-FourSquareVenue/Pods-FourSquareVenue.debug.xcconfig"; sourceTree = "<group>"; };
 		6F24B76D22FD6182005BB72E /* FourSquareVenue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSquareVenue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F24B77022FD6182005BB72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F24B77222FD6182005BB72E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F24B77522FD6182005BB72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F24B77722FD6183005BB72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F24B77A22FD6183005BB72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,8 +138,6 @@
 				6F24B78322FD61C4005BB72E /* Network */,
 				6F24B78222FD61B9005BB72E /* Model */,
 				6F24B77022FD6182005BB72E /* AppDelegate.swift */,
-				6F24B77222FD6182005BB72E /* ViewController.swift */,
-				6F24B77422FD6182005BB72E /* Main.storyboard */,
 				6F24B77722FD6183005BB72E /* Assets.xcassets */,
 				6F24B77922FD6183005BB72E /* LaunchScreen.storyboard */,
 				6F24B77C22FD6183005BB72E /* Info.plist */,
@@ -186,6 +182,7 @@
 		6F24B78422FD61CC005BB72E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F24B77422FD6182005BB72E /* Main.storyboard */,
 				6F24B78522FD61D6005BB72E /* Cell */,
 			);
 			path = View;
@@ -250,7 +247,6 @@
 				41B31B9F3562568C97BA1FDE /* Pods-FourSquareVenue.debug.xcconfig */,
 				DB15496170D04A66CED83C33 /* Pods-FourSquareVenue.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -401,7 +397,6 @@
 				6F24B79422FD629D005BB72E /* ViewControllerExtension.swift in Sources */,
 				6F24B7C022FD654C005BB72E /* Response.swift in Sources */,
 				6F24B7A422FD6388005BB72E /* Request.swift in Sources */,
-				6F24B77322FD6182005BB72E /* ViewController.swift in Sources */,
 				6F24B7BC22FD650F005BB72E /* Ne.swift in Sources */,
 				6F24B79C22FD62FA005BB72E /* VenueListViewController.swift in Sources */,
 				6F24B79022FD626E005BB72E /* GenericCell.swift in Sources */,
